@@ -1,6 +1,6 @@
 - hosts: all
   gather_facts: no
-  become: false
+  become: true
   tasks:
 
     - command: cd /jobs/share/ITtest/Maya_2022_Linux/packages ; yum localinstall *.rpm -y
