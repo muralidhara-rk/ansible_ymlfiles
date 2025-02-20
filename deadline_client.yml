@@ -1,6 +1,6 @@
 - hosts: all
   gather_facts: no
-  become: False
+  become: True
   tasks:
 
       - shell: cd /tech/installers/thinkbox/10.3 ; ./DeadlineClient-10.3.0.10-linux-x64-installer.run \
